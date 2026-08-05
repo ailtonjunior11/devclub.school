@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80">
+  <defs>
+    <linearGradient id="cloudforge-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="80" rx="18" fill="#07141e"/>
+  <path d="M62 38 C54 38 46 32 46 24 C46 16 54 10 62 10 C70 10 76 14 78 20 C85 20 90 25 90 32 C98 34 104 40 104 48 C104 58 96 66 84 66 H60 C52 66 46 60 46 52 C46 48 48 44 52 42 Z" fill="url(#cloudforge-grad)"/>
+  <text x="155" y="50" fill="#fff" font-family="Inter, sans-serif" font-size="22" font-weight="700" text-anchor="middle">CloudForge</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80">
+  <defs>
+    <linearGradient id="dataspark-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="80" rx="18" fill="#1b1207"/>
+  <circle cx="62" cy="40" r="22" fill="url(#dataspark-grad)"/>
+  <path d="M64 22 H90 V58 H64 Z" fill="#fff" opacity="0.15"/>
+  <text x="155" y="50" fill="#111" font-family="Inter, sans-serif" font-size="22" font-weight="700" text-anchor="middle">DataSpark</text>
+</svg>

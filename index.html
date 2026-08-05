@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/devclub-logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="./css/imports.css">
+  <title>DevClub | School</title>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header id="header" class="header">
+
+    <div class="container">
+      <a href="#hero" class="header__logo">
+        <img src="./assets/devclub-logo.png" alt="DevClub">
+      </a>
+
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li>
+            <a href="#formations">Formações</a>
+          </li>
+          <li>
+            <a href="#students">Alunos</a>
+          </li>
+          <li>
+            <a href="#companies">Empresas</a>
+          </li>
+          <li>
+            <a href="#tutors">Tutores</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="button button--primary">
+        Quero me inscrever
+      </a>
+    </div>
+
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+
+      <!-- hero background -->
+      <div class="hero__background"></div>
+
+      <!-- hero stars -->
+      <div class="hero__stars"></div>
+
+      <!-- hero particles -->
+      <div class="hero__particles"></div>
+
+      <!-- Container -->
+      <div class="container">
+        <div class="hero__wrapper">
+          <!-- TEXTO -->
+          <div class="hero__content">
+            <span class="hero__tag">
+              Transforme seu futuro
+            </span>
+            <h1 class="hero__title">
+              Aprenda <span>tecnologia,</span>
+              construa <span>o futuro,</span>
+              seja <span>DevClub.</span>
+            </h1>
+            <p class="hero__description">
+              Formações completas, projetos reais
+              e mentoria especializada para acelerar
+              sua carreira na tecnologia.
+            </p>
+            <div class="hero__actions">
+              <a href="#formations" class="button button--primary">
+                Quero me inscrever
+              </a>
+              <a href="#about" class="button button--secondary">
+                Conheça o DevClub
+              </a>
+            </div>
+
+            <!-- Stats -->
+            <div class="hero__stats">
+              <div class="stat">
+                <strong class="counter" data-target="15000" data-suffix="+">
+                </strong>
+                <span>Alunos</span>
+              </div>
+              <div class="stat">
+                <strong class="counter" data-target="95" data-suffix="%">
+                </strong>
+                <span>Satisfação</span>
+              </div>
+              <div class="stat">
+                <strong class="counter" data-target="300" data-suffix="+">
+                </strong>
+                <span>Empresas parceiras</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- SISTEMA SOLAR -->
+          <div class="solar-system">
+            <!-- LOGO CENTRAL -->
+            <div class="solar-system__center">
+              <video class="hero__video" autoplay muted loop playsinline preload="metadata"
+                aria-label="Vídeo de apresentação DevClub">
+                <source src="./assets/Video Project.mp4" type="video/mp4" />
+                Seu navegador não suporta a reprodução de vídeo.
+              </video>
+            </div>
+            <!-- ÓRBITA -->
+            <div class="orbit orbit--small">
+              <!-- Orbita interna -->
+              <div class="planet planet--chatgpt">
+                <img src="./assets/icons/chatgpt-logo.png" alt="ChatGPT">
+              </div>
+              <div class="planet planet--css">
+                <img src="./assets/icons/css-logo.png" alt="CSS">
+              </div>
+              <div class="planet planet--javascript">
+                <img src="./assets/icons/javascript-logo.png" alt="JavaScript">
+              </div>
+              <div class="planet planet--react">
+                <img src="./assets/icons/react-logo.png" alt="React">
+              </div>
+            </div>
+            <!-- Orbita externa -->
+            <div class="orbit orbit--medium">
+              <div class="planet planet--github">
+                <img src="./assets/icons/github-logo.png" alt="GitHub">
+              </div>
+              <div class="planet planet--meta">
+                <img src="./assets/icons/meta-logo.png" alt="Meta">
+              </div>
+              <div class="planet planet--nodejs">
+                <img src="./assets/icons/nodejs-logo.png" alt="NodeJS">
+              </div>
+              <div class="planet planet--tailwind">
+                <img src="./assets/icons/tailwind-logo.png" alt="Tailwind CSS">
+              </div>
+            </div>
+          </div> <!-- SISTEMA SOLAR -->
+          <!-- Scroll Arrow -->
+          <div class="hero__scroll-indicator">
+            <span>Role para explorar</span>
+            <div class="hero__scroll-arrow">
+              <span></span>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- SOBRE -->
+    <section id="about" class="about">
+      <!-- Container -->
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">
+            Quem Somos
+          </span>
+          <h2 class="section-title">
+            Muito mais do que um curso.
+          </h2>
+          <p class="section-description">
+            O DevClub ajuda pessoas a entrarem no mercado de tecnologia com formação prática,
+            mentoria ativa e uma comunidade focada em resultados.
+          </p>
+        </div> <!-- section-header -->
+
+        <!-- About Content -->
+        <div class="about-content">
+          <!-- Cards -->
+          <div class="about__cards">
+            <article class="about-card about-card--mission">
+              <div class="about-card__icon" aria-hidden="true">
+                <i class="fa-solid fa-rocket" aria-hidden="true"></i>
+              </div>
+              <span class="about-card__badge">01</span>
+              <h3>Missão</h3>
+              <p>
+                Capacitar pessoas para o mercado de tecnologia com cursos práticos, mentoria e suporte de carreira.
+              </p>
+            </article> <!-- card 1 -->
+
+            <article class="about-card about-card--vision">
+              <div class="about-card__icon" aria-hidden="true">
+                <i class="fa-solid fa-eye" aria-hidden="true"></i>
+              </div>
+              <span class="about-card__badge">02</span>
+              <h3>Visão</h3>
+              <p>
+                Ser referência em educação tecnológica que entrega resultados reais para alunos e empresas.
+              </p>
+            </article> <!-- card 2 -->
+
+            <article class="about-card about-card--purpose">
+              <div class="about-card__icon" aria-hidden="true">
+                <i class="fa-solid fa-globe" aria-hidden="true"></i>
+              </div>
+              <span class="about-card__badge">03</span>
+              <h3>Propósito</h3>
+              <p>
+                Construir uma comunidade colaborativa que acelera aprendizado, networking e novas oportunidades.
+              </p>
+            </article> <!-- card 3 -->
+          </div>
+
+          <div class="about__image">
+            <img src="./assets/image-about.jpg" alt="Imagem ilustrativa sobre o DevClub">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMAÇÕES -->
+    <section id="formations" class="formations">
+      <!-- Container -->
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <!-- Section Tag -->
+          <span class="section-tag">
+            Formações
+          </span>
+          <h2 class="section-title">
+            Escolha sua trilha de evolução
+          </h2>
+          <p class="section-description">
+            Do primeiro código à contratação.
+            Nossas formações foram criadas para
+            acelerar sua entrada no mercado.
+          </p>
+        </div>
+        <!-- Formations Grid -->
+        <div class="formations__grid">
+          <!-- Front-End -->
+          <!-- card 1 -->
+          <article class="formation-card">
+            <span class="formation-card__badge">
+              Mais Procurada
+            </span>
+            <h3>Front-End</h3>
+            <p>
+              Crie interfaces modernas,
+              responsivas e profissionais.
+            </p>
+            <ul class="formation-card__stack">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Responsividade</li>
+            </ul>
+          </article>
+
+          <!-- Back-End -->
+          <!-- card 2 -->
+          <article class="formation-card">
+            <h3>Back-End</h3>
+            <p>
+              Construa APIs robustas
+              e aplicações escaláveis.
+            </p>
+            <ul class="formation-card__stack">
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>Banco de Dados</li>
+              <li>APIs REST</li>
+              <li>Deploy</li>
+            </ul>
+          </article>
+
+          <!-- Full Stack -->
+          <!-- card 3 -->
+          <article class="formation-card formation-card--featured">
+            <h3>Full Stack</h3>
+            <p>
+              Domine o desenvolvimento
+              completo do front ao back-end.
+            </p>
+            <ul class="formation-card__stack">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Responsividade</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULTADOS -->
+    <section id="students" class="students">
+
+      <div class="container">
+
+        <div class="students__header">
+          <span>Alunos</span>
+          <h2>Resultados reais para quem quer atuar com tecnologia.</h2>
+          <p>Mais do que números, trazemos progresso real: projetos concluídos, carreira acelerada e acesso ao mercado.
+          </p>
+        </div>
+
+        <div class="students__grid">
+          <article class="student-card student-card--featured">
+            <span class="student-card__status">Mais de 80%</span>
+            <h3>Alunos contratados em até 6 meses</h3>
+            <p>Combinação de prática, portfólio sólido e mentoria direta para acelerar a entrada no mercado.</p>
+          </article>
+
+          <article class="student-card">
+            <h3>Portfólio com impacto</h3>
+            <p>Projetos reais que mostram habilidades técnicas e raciocínio crítico para recrutadores.</p>
+          </article>
+
+          <article class="student-card">
+            <h3>Mentoria prática</h3>
+            <p>Acompanhamento individual com feedback técnico e direcionamento de carreira.</p>
+          </article>
+        </div>
+
+        <div class="students__stats">
+          <div class="stat-card">
+            <span class="stat-card__number">5000+</span>
+            <p>Alunos Formados</p>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-card__number">1200+</span>
+            <p>Contratações</p>
+          </div>
+
+          <div class="stat-card">
+            <span class="stat-card__number">300+</span>
+            <p>Empresas Parceiras</p>
+          </div>
+        </div>
+
+        <div class="students__testimonials">
+          <article class="testimonial-card">
+            <div class="testimonial-card__rating">★★★★★</div>
+            <p class="testimonial-card__quote">“Em seis meses saí do zero e já estava preparada para minha primeira
+              entrevista. Hoje trabalho como desenvolvedora front-end.”</p>
+            <p class="testimonial-card__author">Isabela Silva<span>Front-end Developer</span></p>
+          </article>
+
+          <article class="testimonial-card testimonial-card--accent">
+            <div class="testimonial-card__rating">★★★★★</div>
+            <p class="testimonial-card__quote">“A mentoria prática e o portfólio ajudam a ganhar confiança. Meus
+              primeiros freelas foram consequência direta do curso.”</p>
+            <p class="testimonial-card__author">Marcos Henrique<span>Desenvolvedor Full Stack</span></p>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__rating">★★★★★</div>
+            <p class="testimonial-card__quote">“O suporte de carreira fez toda a diferença. Recebi propostas reais de
+              empresas parceiras logo após finalizar o bootcamp.”</p>
+            <p class="testimonial-card__author">Larissa Costa<span>Analista de QA</span></p>
+          </article>
+        </div>
+
+        <div class="students__cta">
+          <p>Veja o impacto real da nossa formação e descubra como você pode avançar para o mercado de tecnologia.</p>
+          <a href="#contact" class="button button--primary">Fale com um consultor</a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- TECNOLOGIAS -->
+    <section id="technologies" class="technologies">
+
+      <div class="container">
+
+        <div class="section-header">
+
+          <span>Tecnologias</span>
+
+          <h2>
+            Aprenda as tecnologias mais requisitadas.
+          </h2>
+
+          <p class="section-description">
+            Do front-end ao back-end, usamos as ferramentas reais do mercado em todos os nossos projetos.
+          </p>
+
+        </div>
+
+        <div class="technologies__highlight">
+          <p>Stacks atuais, projetos reais e um caminho claro para você dominar as habilidades que as empresas procuram.
+          </p>
+        </div>
+
+        <div class="technologies__grid">
+          <article class="technology-card technology-card--featured">
+            <div class="technology-card__icon">
+              <i class="fa-brands fa-react"></i>
+            </div>
+            <h3>React</h3>
+          </article>
+
+          <article class="technology-card">
+            <div class="technology-card__icon">
+              <i class="fa-brands fa-node-js"></i>
+            </div>
+            <h3>Node.js</h3>
+          </article>
+
+          <article class="technology-card">
+            <div class="technology-card__icon">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <h3>JavaScript</h3>
+          </article>
+
+          <article class="technology-card">
+            <div class="technology-card__icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3>TypeScript</h3>
+          </article>
+
+          <article class="technology-card">
+            <div class="technology-card__icon">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <h3>CSS</h3>
+          </article>
+
+          <article class="technology-card">
+            <div class="technology-card__icon">
+              <i class="fa-solid fa-wind"></i>
+            </div>
+            <h3>Tailwind</h3>
+          </article>
+
+          <article class="technology-card">
+            <div class="technology-card__icon">
+              <i class="fa-brands fa-git-alt"></i>
+            </div>
+            <h3>Git</h3>
+          </article>
+
+          <article class="technology-card">
+            <div class="technology-card__icon">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <h3>GitHub</h3>
+          </article>
+
+          <article class="technology-card">
+            <div class="technology-card__icon">
+              <i class="fa-solid fa-ship"></i>
+            </div>
+            <h3>Docker</h3>
+          </article>
+
+          <article class="technology-card">
+            <div class="technology-card__icon">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h3>IA</h3>
+          </article>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- EMPRESAS -->
+    <section id="companies" class="companies">
+
+      <div class="container">
+
+        <div class="section-header">
+
+          <span>Empresas</span>
+
+          <h2>
+            Empresas que contratam nossos alunos.
+          </h2>
+
+        </div>
+
+        <div class="companies__carousel">
+
+          <div class="companies__carousel-wrapper">
+            <div class="companies__carousel-track" aria-label="Carrossel infinito de logos de empresas" role="list">
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/novatech.svg" alt="Logo NovaTech">
+              </div>
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/byterise.svg" alt="Logo ByteRise">
+              </div>
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/pixelpulse.svg" alt="Logo PixelPulse">
+              </div>
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/cloudforge.svg" alt="Logo CloudForge">
+              </div>
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/metaworks.svg" alt="Logo MetaWorks">
+              </div>
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/codeshift.svg" alt="Logo CodeShift">
+              </div>
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/dataspark.svg" alt="Logo DataSpark">
+              </div>
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/urbanlink.svg" alt="Logo UrbanLink">
+              </div>
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/novatech.svg" alt="Logo NovaTech">
+              </div>
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/byterise.svg" alt="Logo ByteRise">
+              </div>
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/pixelpulse.svg" alt="Logo PixelPulse">
+              </div>
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/cloudforge.svg" alt="Logo CloudForge">
+              </div>
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/metaworks.svg" alt="Logo MetaWorks">
+              </div>
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/codeshift.svg" alt="Logo CodeShift">
+              </div>
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/dataspark.svg" alt="Logo DataSpark">
+              </div>
+              <div class="company-logo" role="listitem">
+                <img src="./assets/images/companies/urbanlink.svg" alt="Logo UrbanLink">
+              </div>
+            </div>
+          </div>
+
+          <div class="companies__carousel-fade companies__carousel-fade--left"></div>
+          <div class="companies__carousel-fade companies__carousel-fade--right"></div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TUTORES -->
+    <section id="tutors" class="tutors">
+
+      <div class="container">
+
+        <div class="section-header">
+
+          <span>Tutores</span>
+
+          <h2>
+            Aprenda com profissionais experientes.
+          </h2>
+
+          <p class="section-description">
+            Mentores atuantes no mercado, que trazem cases reais e orientação prática para acelerar sua transição para a
+            carreira tech.
+          </p>
+
+        </div>
+
+        <div class="tutors__intro">
+          <p>
+            Aqui você encontra tutores que já lideraram times de desenvolvimento, escalaram produtos e prepararam
+            candidatos para vagas de tecnologia.
+          </p>
+        </div>
+
+        <div class="tutors__grid">
+          <article class="tutor-card tutor-card--featured">
+            <div class="tutor-card__avatar">
+              <img src="./assets/images/tutors/tutor1.png" alt="Foto de Ana Ramos">
+            </div>
+            <div class="tutor-card__content">
+              <span class="tutor-card__label">Mentora Front-End</span>
+              <h3>Ana Ramos</h3>
+              <p>Especialista em React, UX e performance. Ajuda alunos a construir interfaces profissionais com foco em
+                acessibilidade e resultados reais.</p>
+              <ul class="tutor-card__skills">
+                <li>React</li>
+                <li>UX</li>
+                <li>Acessibilidade</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="tutor-card">
+            <div class="tutor-card__avatar">
+              <img src="./assets/images/tutors/tutor2.png" alt="Foto de Lucas Costa">
+            </div>
+            <div class="tutor-card__content">
+              <span class="tutor-card__label">Mentor Full Stack</span>
+              <h3>Lucas Costa</h3>
+              <p>Arquiteto de aplicações Node.js e APIs. Foca em práticas limpas, deploy real e integração de equipes de
+                desenvolvimento.</p>
+              <ul class="tutor-card__skills">
+                <li>Node.js</li>
+                <li>APIs</li>
+                <li>DevOps</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="tutor-card">
+            <div class="tutor-card__avatar">
+              <img src="./assets/images/tutors/tutor3.png" alt="Foto de Beatriz Gomes">
+            </div>
+            <div class="tutor-card__content">
+              <span class="tutor-card__label">Coach de Carreira</span>
+              <h3>Beatriz Gomes</h3>
+              <p>Especialista em portfólio, entrevistas e marca pessoal. Prepara você para se destacar em processos
+                seletivos de tecnologia.</p>
+              <ul class="tutor-card__skills">
+                <li>Portfólio</li>
+                <li>Soft Skills</li>
+                <li>Entrevistas</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="tutor-card">
+            <div class="tutor-card__avatar">
+              <img src="./assets/images/tutors/tutor4.png" alt="Foto de Pedro Alves">
+            </div>
+            <div class="tutor-card__content">
+              <span class="tutor-card__label">Especialista AI & Cloud</span>
+              <h3>Pedro Alves</h3>
+              <p>Ensina automação inteligente e infraestrutura moderna. Ajuda alunos a construir projetos escaláveis com
+                IA e cloud.</p>
+              <ul class="tutor-card__skills">
+                <li>IA</li>
+                <li>Docker</li>
+                <li>Cloud</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section id="testimonials" class="testimonials">
+
+      <div class="container">
+
+        <div class="section-header">
+
+          <span>Depoimentos</span>
+
+          <h2>
+            Histórias reais de transformação.
+          </h2>
+
+          <p class="section-description">
+            Veja como nossos alunos saíram do curso com confiança, projetos fortes e oportunidades reais no mercado.
+          </p>
+
+        </div>
+
+        <div class="students__testimonials">
+          <article class="testimonial-card testimonial-card--accent">
+            <div class="testimonial-card__top">
+              <div class="testimonial-card__avatar">IS</div>
+              <div class="testimonial-card__info">
+                <h3 class="testimonial-card__name">Isabela Silva</h3>
+                <span class="testimonial-card__role">Front-end Developer</span>
+                <span class="testimonial-card__company">Contratada na PixelPulse</span>
+              </div>
+            </div>
+            <div class="testimonial-card__rating">★★★★★</div>
+            <p class="testimonial-card__quote">“Em seis meses saí do zero e já estava preparada para minha primeira
+              entrevista. Hoje trabalho como desenvolvedora front-end.”</p>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__top">
+              <div class="testimonial-card__avatar">MH</div>
+              <div class="testimonial-card__info">
+                <h3 class="testimonial-card__name">Marcos Henrique</h3>
+                <span class="testimonial-card__role">Full Stack Developer</span>
+                <span class="testimonial-card__company">Freela em startups</span>
+              </div>
+            </div>
+            <div class="testimonial-card__rating">★★★★★</div>
+            <p class="testimonial-card__quote">“A mentoria prática e o portfólio ajudam a ganhar confiança. Meus
+              primeiros freelas foram consequência direta do curso.”</p>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__top">
+              <div class="testimonial-card__avatar">LC</div>
+              <div class="testimonial-card__info">
+                <h3 class="testimonial-card__name">Larissa Costa</h3>
+                <span class="testimonial-card__role">Analista de QA</span>
+                <span class="testimonial-card__company">Aprovada em empresa parceira</span>
+              </div>
+            </div>
+            <div class="testimonial-card__rating">★★★★★</div>
+            <p class="testimonial-card__quote">“O suporte de carreira fez toda a diferença. Recebi propostas reais
+              de
+              empresas parceiras logo após finalizar o bootcamp.”</p>
+          </article>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta">
+
+      <div class="container cta__wrapper">
+
+        <div class="cta__content">
+          <span>Próxima turma</span>
+          <h2>
+            Comece agora sua trilha tecnológica com projetos reais e mentoria ativa.
+          </h2>
+          <p>
+            Ganhe velocidade no aprendizado, monte um portfólio relevante e tenha suporte de carreira até sua primeira
+            oportunidade.
+          </p>
+
+          <div class="cta__actions">
+            <a href="#contact" class="button button--primary">
+              Quero começar agora
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a href="#formations" class="button button--secondary">
+              <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+              Ver formações
+            </a>
+          </div>
+        </div>
+
+        <div class="cta__highlights">
+          <article class="cta-highlight">
+            <strong>15.000+</strong>
+            <span>Alunos já formados</span>
+          </article>
+          <article class="cta-highlight">
+            <strong>95%</strong>
+            <span>de aprovação em entrevistas</span>
+          </article>
+          <article class="cta-highlight">
+            <strong>100%</strong>
+            <span>suporte de carreira</span>
+          </article>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contact" class="contact">
+
+      <div class="container">
+
+        <div class="section-header">
+
+          <span>Contato</span>
+
+          <h2>
+            Fale com nossa equipe.
+          </h2>
+
+          <p class="section-description">
+            Envie sua mensagem e nossa equipe responderá em até 24 horas. Estamos prontos para ajudar com dúvidas sobre
+            trilhas, turmas e carreira.
+          </p>
+
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__aside">
+            <div class="contact__highlight">
+              <span>Precisa falar agora?</span>
+              <p>
+                Nosso time comercial e de suporte está disponível para escutar seu objetivo e montar o melhor plano de
+                estudos.
+              </p>
+            </div>
+
+            <div class="contact__cards">
+              <article class="contact-card">
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                <strong>contato@devclub.com</strong>
+                <span>Atendimento e inscrições</span>
+              </article>
+              <article class="contact-card">
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                <strong>(11) 4000-1234</strong>
+                <span>WhatsApp e suporte rápido</span>
+              </article>
+              <article class="contact-card">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                <strong>São Paulo, SP</strong>
+                <span>Atendimento remoto e híbrido</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="contact__form-wrapper">
+            <form class="contact-form" action="#" method="post" novalidate>
+              <div class="contact-form__field">
+                <label for="contact-name">Seu nome</label>
+                <input id="contact-name" name="name" type="text" placeholder="Digite seu nome" required
+                  aria-describedby="error-name" />
+                <span id="error-name" class="field-error" aria-live="polite"></span>
+              </div>
+              <div class="contact-form__field">
+                <label for="contact-email">E-mail</label>
+                <input id="contact-email" name="email" type="email" placeholder="seu@email.com" required
+                  aria-describedby="error-email" />
+                <span id="error-email" class="field-error" aria-live="polite"></span>
+              </div>
+              <div class="contact-form__field">
+                <label for="contact-phone">Telefone</label>
+                <input id="contact-phone" name="phone" type="tel" placeholder="(11) 9 9999-9999" required
+                  pattern="\([0-9]{2}\)\s?[0-9]{4,5}-[0-9]{4}" title="Formato: (11) 99999-9999"
+                  aria-describedby="error-phone" />
+                <span id="error-phone" class="field-error" aria-live="polite"></span>
+              </div>
+              <div class="contact-form__field">
+                <label for="contact-message">Mensagem</label>
+                <textarea id="contact-message" name="message" rows="6" placeholder="Conte como podemos ajudar" required
+                  aria-describedby="error-message"></textarea>
+                <span id="error-message" class="field-error" aria-live="polite"></span>
+              </div>
+              <button type="submit" class="button button--primary">
+                Enviar mensagem
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer id="footer" class="footer">
+    <div class="container footer__wrapper">
+      <div class="footer__brand">
+        <a href="#hero" class="footer__logo">
+          <img src="./assets/devclub-logo.png" alt="DevClub">
+        </a>
+        <p>
+          Educação prática em tecnologia, com mentoria, projetos reais e apoio para quem quer entrar no mercado.
+        </p>
+        <div class="footer__social" aria-label="Redes sociais DevClub">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+        </div>
+      </div>
+
+      <div class="footer__links">
+        <div>
+          <h3>Links rápidos</h3>
+          <ul>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#formations">Formações</a></li>
+            <li><a href="#students">Alunos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contato</h3>
+          <ul>
+            <li><a href="mailto:contato@devclub.com.br">contato@devclub.com.br</a></li>
+            <li><a href="tel:+5511999999999">(11) 99999-9999</a></li>
+            <li>Av. Paulista, 1000, São Paulo - SP</li>
+            <li>Seg-Sex: 09h às 18h</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© 2026 DevClub. Todos os direitos reservados.</p>
+      <div class="footer__bottom-links">
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de Uso</a>
+      </div>
+      <a href="#hero" class="footer__top">Voltar ao topo</a>
+    </div>
+  </footer>
+
+</body>
+
+<script src="./js/header.js" defer></script>
+<script src="./js/main.js" defer></script>
+<script src="./js/carousel.js" defer></script>
+<script src="./js/scroll-reveal.js" defer></script>
+
+</html>

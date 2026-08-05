@@ -1,0 +1,198 @@
+.companies {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 5rem 0 6rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.companies__carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.companies__carousel-wrapper {
+  overflow: hidden;
+}
+
+.companies__carousel-track {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  padding: 0 1rem;
+  animation: companiesSlide 15s linear infinite;
+  will-change: transform;
+}
+
+.companies__carousel-track:hover {
+  animation-play-state: paused;
+}
+
+.company-logo {
+  flex: 0 0 auto;
+  min-width: 190px;
+  min-height: 120px;
+  padding: 1.25rem;
+  border-radius: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.company-logo:hover {
+  transform: translateY(-6px);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.company-logo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at top left,
+    rgba(255, 255, 255, 0.18),
+    transparent 30%
+  );
+  opacity: 0.55;
+}
+
+.company-logo img {
+  width: 100%;
+  max-width: 170px;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.12));
+  mix-blend-mode: screen;
+}
+
+.company-logo--novatech {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 255, 102, 0.16),
+    rgba(0, 255, 102, 0.05)
+  );
+}
+
+.company-logo--byterise {
+  background: linear-gradient(
+    135deg,
+    rgba(124, 58, 237, 0.18),
+    rgba(124, 58, 237, 0.05)
+  );
+}
+
+.company-logo--pixelpulse {
+  background: linear-gradient(
+    135deg,
+    rgba(56, 189, 248, 0.18),
+    rgba(56, 189, 248, 0.06)
+  );
+}
+
+.company-logo--cloudforge {
+  background: linear-gradient(
+    135deg,
+    rgba(34, 211, 238, 0.18),
+    rgba(59, 130, 246, 0.05)
+  );
+}
+
+.company-logo--metaworks {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.12),
+    rgba(255, 255, 255, 0.04)
+  );
+  color: #fff;
+}
+
+.company-logo--codeshift {
+  background: linear-gradient(
+    135deg,
+    rgba(236, 72, 153, 0.18),
+    rgba(249, 115, 22, 0.05)
+  );
+}
+
+.company-logo--dataspark {
+  background: linear-gradient(
+    135deg,
+    rgba(251, 191, 36, 0.18),
+    rgba(249, 115, 22, 0.05)
+  );
+  color: #111;
+}
+
+.company-logo--urbanlink {
+  background: linear-gradient(
+    135deg,
+    rgba(168, 85, 247, 0.18),
+    rgba(59, 130, 246, 0.05)
+  );
+}
+
+.companies__carousel-fade {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 5.5rem;
+  z-index: 2;
+}
+
+.companies__carousel-fade--left {
+  left: 0;
+  background: linear-gradient(to right, rgba(5, 8, 22, 1), transparent 70%);
+}
+
+.companies__carousel-fade--right {
+  right: 0;
+  background: linear-gradient(to left, rgba(5, 8, 22, 1), transparent 70%);
+}
+
+@keyframes companiesSlide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .companies__carousel-track {
+    animation: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .company-logo {
+    min-width: 160px;
+    min-height: 100px;
+    padding: 1rem 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .companies__carousel-track {
+    gap: 1rem;
+  }
+
+  .companies__carousel-fade {
+    width: 4rem;
+  }
+
+  .company-logo {
+    min-width: 138px;
+    min-height: 96px;
+  }
+}

@@ -1,0 +1,130 @@
+.contact__grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 2rem;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+.contact__aside {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.contact__highlight {
+  padding: 2rem;
+  border-radius: 24px;
+  background: rgba(0, 255, 102, 0.08);
+  border: 1px solid rgba(0, 255, 102, 0.14);
+}
+
+.contact__highlight span {
+  display: inline-flex;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-primary);
+  font-size: 0.8rem;
+  margin-bottom: 0.75rem;
+}
+
+.contact__highlight p {
+  color: var(--color-gray-300);
+  line-height: 1.8;
+}
+
+.contact__cards {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-card {
+  display: grid;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.contact-card i {
+  font-size: 1.2rem;
+  color: var(--color-primary);
+}
+
+.contact-card strong {
+  display: block;
+  color: var(--color-white);
+  font-size: 1rem;
+}
+
+.contact-card span {
+  color: var(--color-gray-300);
+  font-size: 0.95rem;
+}
+
+.contact-form {
+  display: grid;
+  gap: 1.25rem;
+  padding: 2rem;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.contact-form__field {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.contact-form label {
+  color: var(--color-gray-300);
+  font-size: 0.95rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--color-white);
+  outline: none;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 4px rgba(0, 255, 102, 0.12);
+}
+
+.contact-form input.invalid,
+.contact-form textarea.invalid {
+  border-color: #ff6b6b;
+  box-shadow: 0 0 0 4px rgba(255, 107, 107, 0.16);
+}
+
+.contact-form input.invalid::placeholder,
+.contact-form textarea.invalid::placeholder {
+  color: rgba(255, 107, 107, 0.75);
+}
+
+.field-error {
+  color: #ff8b8b;
+  font-size: 0.9rem;
+  min-height: 1.2rem;
+}
+
+.contact-form textarea {
+  min-height: 210px;
+  resize: vertical;
+}
+
+@media (max-width: 900px) {
+  .contact__grid {
+    grid-template-columns: 1fr;
+  }
+}

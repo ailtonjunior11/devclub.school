@@ -1,0 +1,78 @@
+:root {
+  /* COLORS */
+
+  --color-primary: #00ff66;
+  --color-primary-dark: #00cc52;
+
+  --color-secondary: #7c3aed;
+  --color-secondary-light: #a855f7;
+
+  --color-white: #ffffff;
+
+  --color-gray-100: #f8fafc;
+  --color-gray-200: #e2e8f0;
+  --color-gray-400: #94a3b8;
+  --color-gray-600: #475569;
+
+  --bg-primary: #050816;
+  --bg-secondary: #0b1020;
+  --bg-card: rgba(255, 255, 255, 0.03);
+
+  /* GRADIENTS */
+
+  --gradient-primary: linear-gradient(135deg, #00ff66, #00c853);
+
+  --gradient-secondary: linear-gradient(135deg, #7c3aed, #00ff66);
+
+  /* GLOW */
+
+  --glow-primary: 0 10px 30px rgba(0, 255, 102, 0.25);
+
+  --glow-secondary:
+    0 0 15px rgba(124, 58, 237, 0.35), 0 0 40px rgba(124, 58, 237, 0.2);
+
+  /* TYPOGRAPHY */
+
+  --font-primary: "Inter", sans-serif;
+
+  --font-heading: "Space Grotesk", sans-serif;
+
+  /* FONT SIZE */
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2rem;
+  --fs-3xl: 3rem;
+  --fs-4xl: 4rem;
+  --fs-5xl: 5rem;
+
+  /* SPACING */
+
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 5rem;
+  --space-4xl: 8rem;
+
+  /* BORDER RADIUS */
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 2rem;
+
+  /* CONTAINER */
+
+  --container-width: 1280px;
+
+  /* TRANSITIONS */
+
+  --transition: all 0.3s ease;
+}

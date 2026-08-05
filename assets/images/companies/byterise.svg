@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80">
+  <defs>
+    <linearGradient id="byterise-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="80" rx="18" fill="#081020"/>
+  <path d="M50 22 H78 L88 46 H60 Z" fill="url(#byterise-grad)"/>
+  <path d="M80 22 H108 L118 46 H90 Z" fill="#fff" opacity="0.08"/>
+  <text x="145" y="50" fill="#fff" font-family="Inter, sans-serif" font-size="22" font-weight="700" text-anchor="middle">ByteRise</text>
+</svg>
