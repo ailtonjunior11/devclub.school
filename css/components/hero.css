@@ -52,10 +52,11 @@
 
 /* Hero Title Span */
 .hero__title span {
-  background: linear-gradient(90deg, #00ff66, #7c3aed);
+  background: #7c3aed;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-size: clamp(3.1rem, 6.1vw, 4.1rem);
 }
 
 /* Hero Description */
