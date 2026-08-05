@@ -160,13 +160,13 @@
   position: absolute;
   inset: -40px;
   border-radius: 50%;
-  background: radial-gradient(rgba(144, 0, 255, 0.144), transparent 60%);
+  /* background: radial-gradient(rgba(144, 0, 255, 0.144), transparent 60%); */
   z-index: -1;
 }
 
 /* Solar System Center Image */
 .solar-system__center img {
-  max-width: 130px;
+  max-width: 200px;
   width: 100%;
   border-radius: 50%;
 }
