@@ -65,3 +65,88 @@
 .header__menu a:hover::after {
   width: 100%;
 }
+
+/* Menu mobile */
+.icons__menumobile {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--color-gray-200);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.icons__menumobile i {
+  font-size: 1.1rem;
+}
+
+.icons__menumobile .fa-xmark {
+  display: none;
+}
+
+.icons__menumobile.active .fa-bars-staggered {
+  display: none;
+}
+
+.icons__menumobile.active .fa-xmark {
+  display: block;
+}
+
+.header__navmobile {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  min-width: min(85vw, 280px);
+  padding: 1rem 1.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  background: rgba(5, 8, 22, 0.96);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-8px);
+  transition: 0.3s ease;
+}
+
+.header__navmobile.active {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.header__menumobile {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.header__menumobile a {
+  color: var(--color-gray-200);
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .header__menu {
+    display: none;
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .btn-contact {
+    display: none;
+  }
+
+  .icons__menumobile {
+    display: flex;
+  }
+}
