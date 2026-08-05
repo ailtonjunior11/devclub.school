@@ -80,6 +80,7 @@
 .tutor-card__avatar img {
   width: 100%;
   height: 100%;
+  margin-top: 1rem;
   object-fit: cover;
   display: block;
   transform: scale(1.12);
@@ -148,6 +149,18 @@
 @media (max-width: 1100px) {
   .tutors__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    overflow-x: visible;
+    scroll-snap-type: none;
+  }
+
+  .tutor-card__avatar img {
+    width: 110%;
+    height: 110%;
+    min-width: 110%;
+    min-height: 110%;
+    object-fit: cover;
+    object-position: center;
+    transform: scale(1.03);
   }
 }
 

@@ -1,0 +1,179 @@
+/* Responsive layout rules */
+
+@media (max-width: 1100px) {
+  .hero__wrapper {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .hero__actions {
+    justify-content: center;
+  }
+
+  .hero__stats {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
+  }
+
+  .solar-system {
+    width: 340px;
+    height: 340px;
+  }
+
+  .solar-system__center {
+    width: 180px;
+    height: 180px;
+  }
+
+  .solar-system__center img {
+    max-width: 120px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header .container {
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: auto;
+    padding-block: 1rem;
+  }
+
+  .header__menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .header__logo {
+    margin: 0 auto;
+  }
+
+  .hero {
+    padding-top: 120px;
+  }
+
+  .hero__wrapper {
+    padding-inline: 1rem;
+  }
+
+  .hero__stats {
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .solar-system {
+    margin-inline: auto;
+  }
+
+  .about-content,
+  .formations__grid,
+  .students__grid,
+  .technologies__grid,
+  .contact__grid,
+  .footer__wrapper,
+  .tutors__intro {
+    padding-inline: 1rem;
+  }
+
+  .formations__grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .students__stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .students__testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .companies__carousel-wrapper {
+    padding-inline: 0.5rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .header__menu {
+    justify-content: center;
+  }
+
+  .hero {
+    padding-top: 100px;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero__actions .button {
+    width: 100%;
+  }
+
+  .hero__stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .solar-system {
+    width: 280px;
+    height: 280px;
+  }
+
+  .solar-system__center {
+    width: 160px;
+    height: 160px;
+  }
+
+  .hero__scroll-indicator {
+    bottom: 16px;
+  }
+
+  .formations__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .students__stats {
+    grid-template-columns: 1fr;
+  }
+
+  .students__cta {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .technologies__highlight {
+    padding: 1rem 1.25rem;
+  }
+
+  .companies__carousel-fade {
+    display: none;
+  }
+
+  .company-logo {
+    min-width: 150px;
+  }
+
+  .tutors__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tutor-card {
+    min-width: auto;
+  }
+
+  .contact-form {
+    padding: 1.5rem;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .footer__bottom p {
+    width: 100%;
+  }
+}

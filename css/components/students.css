@@ -271,16 +271,16 @@
 }
 
 @media (max-width: 1100px) {
-  .testimonials__carousel {
+  .students__grid {
     grid-template-columns: 1fr;
   }
 
-  .testimonials__nav {
-    display: none;
+  .students__testimonials {
+    grid-template-columns: 1fr;
   }
 
   .testimonial-card {
-    min-width: 100%;
+    width: 100%;
     max-width: 100%;
   }
 }
